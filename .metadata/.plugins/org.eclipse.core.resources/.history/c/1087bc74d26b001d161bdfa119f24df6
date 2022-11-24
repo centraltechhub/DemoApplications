@@ -1,0 +1,18 @@
+table 
+{
+       margin: 5px;
+       width: 50%;
+       color: white;
+       background: black;
+       font: 300;speak-punctuation: 
+}
+
+td
+{
+        width: 100px;
+}
+
+tr
+{
+        height: 30px;
+}

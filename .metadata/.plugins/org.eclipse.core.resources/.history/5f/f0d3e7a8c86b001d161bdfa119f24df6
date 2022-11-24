@@ -1,0 +1,32 @@
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link href="SystemDetails.css" rel="stylesheet" type="text/css">
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="ServerDetails.js"></script>
+
+<body>
+<div ng-app="ServerModule" ng-controller="ServerController">
+
+<table>
+<tr  >
+<td>Session counter</td>
+<td  ng-bind="server.sessionCounter" />
+
+<tr>
+<td>Server ip</td>
+<td ng-bind="server.ip" />
+</tr>
+
+<tr>
+<td>Server hostname</td>
+<td ng-bind="server.hostname" />
+
+</tr>
+</table>
+<input type="button" ng-click="alertData()" value="session data" />
+</div>
+</body>
+</html>

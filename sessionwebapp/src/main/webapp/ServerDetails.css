@@ -1,0 +1,19 @@
+table 
+{
+       margin: 5px;
+       width: 50%;
+       color: white;
+       font:bold;
+       background: black;
+       
+}
+
+td
+{
+        width: 100px;
+}
+
+tr
+{
+        height: 30px;
+}

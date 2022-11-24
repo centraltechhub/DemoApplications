@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archive>
+    <archive targetInArchive="/sessionwebapp.war">
+        <dir sourceOnDisk="/Users/hussamoa/Techhub/eclipse/workspace/DemoApplications/sessionwebapp/src/main/webapp" targetInArchive="/"/>
+    </archive>
+    <dir sourceOnDisk="/Users/hussamoa/Techhub/eclipse/workspace/DemoApplications/sessionapp" targetInArchive="/"/>
+</archive>

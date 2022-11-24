@@ -1,2 +1,0 @@
-INDEX VERSION 1.4+/Users/hussamoa/Techhub/eclipse/workspace/DemoApplications/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-2180764006.index

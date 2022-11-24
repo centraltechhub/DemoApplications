@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<servers>
-  <server auto-publish-setting="2" auto-publish-time="1" hostname="localhost" id="Liberty Server at localhost" looseConfig="true" name="Liberty Server at localhost" publishWithError="false" runtime-id="Liberty Runtime" server-type="com.ibm.ws.st.server.wlp" server-type-id="com.ibm.ws.st.server.wlp" serverName="sessionapp" serverType="libertyServer" start-timeout="60" stop-timeout="15" timestamp="26" userDirId="Liberty Runtime">
-    <list key="modules" value0="sessionapp::org.eclipse.jst.jee.server:sessionapp::jst.ear::8.0"/>
-  </server>
-</servers>

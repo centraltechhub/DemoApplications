@@ -1,10 +1,14 @@
 table 
 {
+	   
+	  
        margin: 5px;
        width: 50%;
-       color: white;
-       font:bold;
+       color: FFA833;
        background: black;
+       margin-left: 25%; 
+       margin-bottom: 10%;
+        
        
 }
 

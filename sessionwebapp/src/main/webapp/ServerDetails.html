@@ -9,24 +9,28 @@
 
 <body>
 <div ng-app="ServerModule" ng-controller="ServerController">
-
-<table >
+<br><br><br><br><br><br><br><br><br><br>
+<table>
+<tr>
+<td colspan="2" align="center"><br><b>SERVER DETAILS</b></td>
+</tr>
 <tr  >
-<td>Session counter</td>
+<td> Session Counter</td>
 <td  ng-bind="server.sessionCounter" />
 
 <tr>
-<td>Server ip</td>
+<td>Server IP</td>
 <td ng-bind="server.ipAddress" />
 </tr>
 
 <tr>
-<td>Server hostname</td>
+<td>Server Hostname</td>
 <td ng-bind="server.hostName" />
 
 </tr>
-<td colspan="2" align="center"><input type="button" ng-click="alertData()" value="session data" /></td>
-
+<tr>
+<td colspan="2" align="center"><br><input type="button" ng-click="alertData()" value="session data" /><br><br></td>
+</tr>
 </table>
 
 </div>
